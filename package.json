@@ -9,18 +9,17 @@
         "start": "node ./index.js",
         "watch": "nodemon ./index.js",
         "lint": "eslint .",
-        "test": "mocha --recursive test",
-        "bump-version": "npm version patch"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com"
     },
     "dependencies": {
-        "botbuilder": "~4.22.1",
-        "botbuilder-ai": "^4.22.2",
+        "botbuilder": "~4.14.0",
+        "botbuilder-ai": "^4.14.0",
         "dotenv": "^8.2.0",
-        "restify": "~10.0.0"
+        "restify": "~8.5.1"
     },
     "devDependencies": {
         "eslint": "^7.0.0",
